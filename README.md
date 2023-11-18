@@ -23,10 +23,10 @@ The comment free version is available in the repository.
 - [ ] Take meds
 - [ ] Meditate
 - [ ] Go out for a walk
-- [ ] [[Excercise]]
+- [ ] Excercise
 ## Tasks due today
 
-*Task due today are displayed dynamically. They gather tasks across all of the notes in the "Daily" directory. If your daily notes are in a different dir, change the name accordingly. The tasks are selected by compliton state, the due date is matching with the today's date and sorted by the earliest.*
+*Task due today are displayed dynamically. They gather tasks across all of the notes in the "Daily" directory. If your daily notes are in a different dir, change the name accordingly. The tasks are selected by the compliton state, the due date, which is matching with the today's date and sorted by the earliest. The false at the end of the query prevents displaying note titles, where the selected notes come from.*
 
 ```dataviewjs
 dv.taskList(dv.pages('"Daily"').file.tasks 
